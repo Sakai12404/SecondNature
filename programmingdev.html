@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> SecondNature | ProgrammingDev </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="programmingdev.css">
+    </head>
+<body>
+    <header>
+        <a class="logo" href="index.html"> SecondNature </a>
+        <nav>
+            <a href="index.html#mission">Our Mission</a>
+            <a href="index.html#programs">Programs</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <content>
+        <section class="programming-hero">
+            <h1> ProgrammingDev </h1>
+            <p>
+                ProgrammingDev is a 10 week-long class that teaches coding concepts and some robotics concepts in a manner that a younger audience is able to comprehend. The class comes with interactive activities and challenges that push the students to use their critical thinking skills. 
+            </p>
+            <a class="btn" 
+            href="https://docs.google.com/document/d/18KyBICoFtP0mwmvm3AXI_GjR4XOuykLAVB8LFAZtcQM/edit?tab=t.0"> 
+                View Course Syllabus
+            </a>
+        </section>
+        <h2> Lessons: </h2>
+        <ul class="lessons">
+            <li> <button id="openLesson" class="btn" data="Introduction into Sphero Minis"> Introduction into Sphero Minis </button> </li>
+            <li> <button id="openLesson" class="btn" data="Movement of Sphero Minis"> Movement of Sphero Minis </button> </li>
+            <li> <button id="openLesson" class="btn" data="LED Control and Variables"> LED Control and Variables </button> </li>
+            <li> <button id="openLesson" class="btn" data="Sensors, Inputs, and Conditional Logic"> Sensors, Inputs, and Conditional Logic </button> </li>
+            <li> <button id="openLesson" class="btn" data="Loops and Functions"> Loops and Functions </button> </li>
+            <li> <button id="openLesson" class="btn" data="Moving to Python"> Moving to Python </button> </li>
+            <li> <button id="openLesson" class="btn" data="Binary and Decimal"> Binary and Decimal </button> </li>
+            <li> <button id="openLesson" class="btn" data="Applying Python to Sphero Minis"> Applying Python to Sphero Minis </button> </li>
+            <li> <button id="openLesson" class="btn" data="Autonomous Movement"> Autonomous Movement </button> </li>
+            <li> <button id="openLesson" class="btn" data="Applied Challenge"> Applied Challenge </button> </li>
+        </ul>
+        
+    <!-- Add additional popup for lessons -->
+    </content>
+    <div id="popupOverlay" class="popup-overlay">
+        <div class="popup-box">
+            <button id="closeBtn" class="close-btn">Close</button>
+            <div class="popup-content">
+                <!-- hadnled in popup.js -->
+            </div>
+        </div>
+    </div>
+
+<script src="popup.js"></script>
+</body>
+</html>
