@@ -37,7 +37,11 @@ header {
   font-weight: bold;
   text-decoration: none;
 }
-
+li {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0; /* fix it to be more left */
+}
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -67,7 +71,6 @@ nav a:hover {
 .hero p {
   max-width: 550px;
 }
-
 .eyebrow {
   color: var(--green);
   font-weight: bold;

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> SecondNature | FormForge </title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="programs.css">
+    </head>
+<body class="formforge">
+    <header>
+        <a class="logo" href="../index.html"> SecondNature </a>
+        <nav>
+            <a href="../index.html#mission">Our Mission</a>
+            <a href="../index.html#programs">Programs</a>
+            <a href="../index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <content>
+        <section class="programs-hero">
+            <h1> FormForge </h1>
+            <p>
+                FormForge is a 10-week class that covers basic Computer-Aided Design (CAD) in Onshape and related topics, such as using a 3D printer and dimensioning. This course will prepare students for more advanced CAD in robotics, manufacturing, engineering, and many other related careers/activities.
+            </p>
+            <a class="btn" 
+            href="https://docs.google.com/document/d/1e0hNwfu9GNDROY2DJOwXzB8H_i1csuRNya-Ov47g3d8/edit?usp=sharing"> 
+                View Course Syllabus
+            </a>
+        </section>
+        <h2> Lessons: </h2>
+        <ul class="lessons">
+            <li> <button id="openLesson" class="btn" data="Onshape Basics and Sketches Introduction"> Onshape Basics and Sketches Introduction </button> </li>
+            <li> <button id="openLesson" class="btn" data="Sketches and"> Sketches and </button> </li>
+            <li> <button id="openLesson" class="btn" data="Part Studios and Assembly Basics"> Part Studios and Assembly Basics </button> </li>
+            <li> <button id="openLesson" class="btn" data="Drawer Project"> Drawer Project </button> </li>
+            <li> <button id="openLesson" class="btn" data="3D Printer Use"> 3D Printer Use </button> </li>
+            <li> <button id="openLesson" class="btn" data="3D Printable Parts"> 3D Printable Parts </button> </li>
+            <li> <button id="openLesson" class="btn" data="Dimensioning"> Dimensioning </button> </li>
+            <li> <button id="openLesson" class="btn" data="Design Iteration and Prototyping"> Design Iteration and Prototyping </button> </li>
+            <li> <button id="openLesson" class="btn" data="Project Part 1"> Project Part 1 </button> </li>
+            <li> <button id="openLesson" class="btn" data="Project Part 2"> Project Part 2 </button> </li>
+        </ul>
+        
+    <!-- Add additional popup for lessons -->
+    </content>
+    <div id="popupOverlay" class="popup-overlay">
+        <div class="popup-box">
+            <button id="closeBtn" class="close-btn">Close</button>
+            <div class="popup-content">
+                <!-- hadnled in popup.js -->
+            </div>
+        </div>
+    </div>
+
+<script src="popup.js"></script>
+</body>
+</html>

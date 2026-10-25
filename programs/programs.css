@@ -1,0 +1,83 @@
+.programmingdev {
+    --mainColor: #E7D7F6;
+    --lighterColor: #C9A9E6;
+    --middleColor: #A88BD6;
+    --contrastingColor: #6F5A8E;
+    --lightColor: #F6F3EE;
+}
+
+.chemtuition {
+    --mainColor: #E5F4E3;
+    --lighterColor: #B7E4B0;
+    --middleColor: #70C878;
+    --contrastingColor: #285943;
+    --lightColor: #F5FAF2;
+}
+
+.formforge {
+    --mainColor: #008080;
+    --lighterColor: #4FC9C9;
+    --middleColor: #87BBD8;
+    --contrastingColor: #F97171;
+    --lightColor: #E0FBFC;
+}
+
+.ampinstruct {
+  --mainColor: #FFD966;
+  --lighterColor: #FFE9A8;
+  --middleColor: #E9A23B;
+  --contrastingColor: #8A3F08;
+  --lightColor: #FFF9E8;
+}
+
+.programs-hero {
+    padding: 100px 8%;
+    background: var(--mainColor) ; /* main color */
+}
+.programs-hero h1 {
+  max-width: 650px;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.1;
+  color: var(--contrastingColor); /* contrasting color */
+}
+.programs-hero p {
+    max-width: 550px;
+    color: var(--contrastingColor); /* contrasting color */
+}
+
+h2 { 
+  color: var(--contrastingColor);
+}
+.lessons {
+  list-style: none;      
+  padding: 0;            
+  margin: 24px 0;
+}
+
+.lessons li {
+  background: var(--lighterColor);
+  margin-bottom: 12px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border-left: 5px solid var(--contrastingColor); 
+}
+
+.lessons li:hover {
+  transform: translateX(5px);
+  transition: transform 0.2s ease;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 22px;
+  background: var(--middleColor); 
+  color: var(--lightColor); 
+  border-radius: 8px;
+  text-decoration: none;
+} 
+.btn:hover{
+  background: var(--contrastingColor);
+  transform: translateY(-2.5px);
+  transition: transform 0.2s ease;
+}

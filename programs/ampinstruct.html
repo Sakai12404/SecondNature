@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> SecondNature | AmpInstruct </title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="programs.css">
+    </head>
+<body class="ampinstruct">
+    <header>
+        <a class="logo" href="../index.html"> SecondNature </a>
+        <nav>
+            <a href="../index.html#mission">Our Mission</a>
+            <a href="../index.html#programs">Programs</a>
+            <a href="../index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <content>
+        <section class="programs-hero">
+            <h1> AmpInstruct </h1>
+            <p>
+                Amp Instruct is a 10 week long class which teaches about circuits and electronic theory in which students will be provided with free kits, setting you up to learn more about electronics in the future!
+            </p>
+            <a class="btn" href="https://docs.google.com/document/d/1mLAKqf7f91-aDD_Xd-DQEp1-k9T6g4jrn-zlk5iVRFc/edit?usp=sharing"> 
+                View Course Syllabus
+            </a>
+        </section>
+        <h2> Lessons: </h2>
+        <ul class="lessons">
+            <li> <button id="openLesson" class="btn" data="Introduction to electronics"> Introduction to electronics </button> </li>
+            <li> <button id="openLesson" class="btn" data="Ohm's Law and Flow of Energy"> Ohm's Law and Flow of Energy </button> </li>
+            <li> <button id="openLesson" class="btn" data="Circuit Drawing"> Circuit Drawing </button> </li>
+            <li> <button id="openLesson" class="btn" data="Kirchoff's Laws and Resistor Color Codes"> Kirchoff's Laws and Resistor Color Codes </button> </li>
+            <li> <button id="openLesson" class="btn" data="Diodes"> Diodes </button> </li>
+            <li> <button id="openLesson" class="btn" data="Capacitors"> Capacitors </button> </li>
+            <li> <button id="openLesson" class="btn" data="Circuit Diagram Translation"> Circuit Diagram Translation </button> </li>
+            <li> <button id="openLesson" class="btn" data="Types of Capacitors and Resistors"> Types of Capacitors and Resistors </button> </li>
+            <li> <button id="openLesson" class="btn" data="PWM and Microcontrollers"> PWM and Microcontrollers </button> </li>
+            <li> <button id="openLesson" class="btn" data="Electronic Applications for an Arduino"> Electronic Applications for an Arduino </button> </li>
+        </ul>
+        
+    <!-- Add additional popup for lessons -->
+    </content>
+    <div id="popupOverlay" class="popup-overlay">
+        <div class="popup-box">
+            <button id="closeBtn" class="close-btn">Close</button>
+            <div class="popup-content">
+                <!-- hadnled in popup.js -->
+            </div>
+        </div>
+    </div>
+
+<script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> SecondNature | ChemTuition </title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="programs.css">
+    </head>
+<body class="chemtuition">
+    <header>
+        <a class="logo" href="../index.html"> SecondNature </a>
+        <nav>
+            <a href="../index.html#mission">Our Mission</a>
+            <a href="../index.html#programs">Programs</a>
+            <a href="../index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <content>
+        <section class="programs-hero">
+            <h1> ChemTuition </h1>
+            <p>
+                ChemTuition is a 10-week-long class that teaches high school chemistry topics in a way that a younger audience can easily understand and connect to the world around them. The class comes with various interactive activities and chemical experiments, setting you up to learn more about chemistry in the future!
+            </p>
+            <a class="btn" 
+            href="https://docs.google.com/document/d/1Z9BPUM55anCSHRwMylfdWQCUWUlYbcsQMblhDW74O68/edit?usp=sharing"> 
+                View Course Syllabus
+            </a>
+        </section>
+        <h2> Lessons: </h2>
+        <ul class="lessons">
+            <li> <button id="openLesson" class="btn" data="Introduction to Chemistry"> Introduction to Chemistry </button> </li>
+            <li> <button id="openLesson" class="btn" data="Stoichiometry"> Stoichiometry </button> </li>
+            <li> <button id="openLesson" class="btn" data="Redox Reactions"> Redox Reactions </button> </li>
+            <li> <button id="openLesson" class="btn" data="Acids/Bases"> Acids/Bases </button> </li>
+            <li> <button id="openLesson" class="btn" data="Bonding"> Bonding </button> </li>
+            <li> <button id="openLesson" class="btn" data="Molecular Geometries"> Molecular Geometries </button> </li>
+            <li> <button id="openLesson" class="btn" data="Intermolecular Forces"> Intermolecular Forces </button> </li>
+            <li> <button id="openLesson" class="btn" data="Solubility"> Solubility </button> </li>
+            <li> <button id="openLesson" class="btn" data="Gas Laws"> Gas Laws </button> </li>
+            <li> <button id="openLesson" class="btn" data="Thermodynamics"> Thermodynamics </button> </li>
+        </ul>
+        
+    <!-- Add additional popup for lessons -->
+    </content>
+    <div id="popupOverlay" class="popup-overlay">
+        <div class="popup-box">
+            <button id="closeBtn" class="close-btn">Close</button>
+            <div class="popup-content">
+                <!-- hadnled in popup.js -->
+            </div>
+        </div>
+    </div>
+
+<script src="popup.js"></script>
+</body>
+</html>
