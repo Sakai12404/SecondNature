@@ -5,9 +5,9 @@
   --text: #24332b;
   --background: #fcfcf8;
 }
-
 * {
   box-sizing: border-box;
+  font-family: "Google Sans Flex", sans-serif;
 }
 
 html {
@@ -113,7 +113,6 @@ footer {
 }
 
 /* Popup styling */
-
 
 
 /* The darkened background overlay covering the full screen */
