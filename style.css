@@ -125,9 +125,29 @@ footer {
     padding: 70px 8%;
   }
 }
-/* People images Sytling*/
-
-/* Gallery Card Styling */
+/* Founder Sytling*/
+.founders h2 {
+  font-size: 35px;
+}
+.introduction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.introduction p {
+  padding-left: 25px;
+  font-size: 20px;
+} 
+.introduction img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}/* Gallery Card Styling */
 
 .program-gallery {
   display: grid;
@@ -192,25 +212,4 @@ footer {
   width: 90%;
   transform: translateY(-20px);
   transition: transform 0.3s ease;
-}
-
-/* The active class triggered by JavaScript */
-.popup-overlay.active {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.popup-overlay.active .popup-box {
-  transform: translateY(0);
-}
-
-/* Popup close button */
-.close-btn {
-  margin-top: 15px;
-  padding: 8px 15px;
-  background: #ff4d4d;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }

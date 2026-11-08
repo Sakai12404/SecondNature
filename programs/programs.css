@@ -15,15 +15,15 @@
 }
 
 .formforge {
-    --mainColor: #008080;
+    --mainColor: #49b6f5;
     --lighterColor: #4FC9C9;
     --middleColor: #87BBD8;
-    --contrastingColor: #F97171;
+    --contrastingColor: #004a4a;
     --lightColor: #E0FBFC;
 }
 
 .ampinstruct {
-  --mainColor: #FFD966;
+  --mainColor: #ffe080;
   --lighterColor: #FFE9A8;
   --middleColor: #E9A23B;
   --contrastingColor: #8A3F08;
@@ -59,21 +59,32 @@
 }
 h2 { 
   color: var(--contrastingColor);
+  padding-left: 50px;
 }
 .lessons {
   list-style: none;      
-  padding: 0;            
   margin: 24px 0;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px
 }
 
 .lessons li {
   background: var(--lighterColor);
   margin-bottom: 12px;
-  padding: 16px 20px;
   border-radius: 10px;
   border-left: 5px solid var(--contrastingColor); 
+  display: flex;
+  flex-direction: row;
 }
-
+.lessons li h2 {
+  padding: 15px;
+}
+.lessons li div {
+  padding-left: 10px;
+  flex-direction: column;
+}
 .lessons li:hover {
   transform: translateX(5px);
   transition: transform 0.2s ease;
